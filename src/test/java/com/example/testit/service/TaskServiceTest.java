@@ -51,4 +51,11 @@ public class TaskServiceTest {
         taskService.createTask("titre","description",requester,assigned);
         Mockito.verify(taskRepository).save(any());
     }
+
+    @Test
+    public void test_updateTask(){
+        var task1 = new Task();
+
+
+    }
 }
