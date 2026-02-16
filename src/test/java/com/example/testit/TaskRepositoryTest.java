@@ -30,8 +30,8 @@ class TaskRepositoryTest {
 
     @BeforeEach
     void setUp() {
-        user1 = userRepository.save(new User("user1"));
-        user2 = userRepository.save(new User("user2"));
+        user1 = userRepository.save(new User("user1","pwd1"));
+        user2 = userRepository.save(new User("user2","pwd2"));
     }
 
     @Test
